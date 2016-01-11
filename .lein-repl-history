@@ -1,0 +1,101 @@
+(defn sign [x]
+  (if (< x 0)
+    "-"
+    "+"))
+(sign 2)
+(sign 56)
+(sign -56)
+(sign 0)
+(defn abs [x]
+  (< x 0)
+  (* x -1)
+  x)
+(abs 2)
+(abs -2)
+(defn abs [x]
+  (> x 0)
+  x
+  (* x -1))
+(abs -2)
+(abs 2)
+(defn abs [x]
+  (>= x 0)
+  "jee"
+  "joo")
+(abs 2)
+(abs -2)
+(abs 0)
+(defn abs [x]
+  (if (<= 0 x)
+    x
+    (* -1 x))
+  )
+(abs 2)
+(abs -2)
+(defn abs [x]
+  (if (<= 0 x)
+    x
+    (* -1 x))
+  )
+(abs -2)
+exit
+(defn divides? [divisor n]
+  (if (== (mod divisor n) 0) true false)
+  )
+(divides? 2 4)
+(divides? 3 4)
+(divides? 4 4)
+(divides? 4 1)
+(divides? 4 2)
+(mod 4 2)
+(mod 4 3)
+(divides? 4 3)
+(divides? 4 2)
+(mod 4 2)
+quit
+(defn fizzbuzz [n]
+  (cond
+    (divides? n 3) "fizz"
+    (divides? n 5) "buzz"
+    (divides? n 15) "gotcha!"
+    :else ""))
+quit
+(defn divides? [divisor n]
+  (if (== (mod n divisor) 0) true false)
+  )
+(divides? 2 3)
+(divides? 2 15)
+(divides? 2 5)
+(divides? 45 3)
+(divides? 45 5)
+(divides? 45 15)
+(mod 45 5)
+(if (== (mod 45 5) 0) true false)
+(mod 45 5)
+(if (== (mod 45 5) 0) true false)
+(if (== (mod 45 6) 0) true false)
+quit
+(if (== (mod 45 5) 0) true false)
+(defn divides? [divisor n]
+  (if (== (mod n divisor) 0) true false)
+  )
+(defn fizzbuzz [n]
+  (cond
+    (divides? n 3) "fizz"
+    (divides? n 5) "buzz"
+    (divides? n 15) "gotcha!"
+    :else ""))
+(divides? n 3)
+(divides? 45 3)
+(divides? 45 5)
+if (== (mod 45 5) 0) true false)
+(if (== (mod 45 5) 0) )
+(if (== (mod 45 5) 0)  true false)
+(divides? 45 5)
+(defn divides? [divisor n]
+  (if (== (mod divisor n) 0) true false)
+  )
+(divides? 45 5)
+(fizzbuzz 45)
+quiy
+quit
